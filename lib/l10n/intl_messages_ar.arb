@@ -1,0 +1,50 @@
+{
+  "@@locale": "ar",
+  "@@last_modified": "2018-09-11T17:25:10.251470",
+  "title": "إبقى على إتصال (عرض ترجمة)",
+  "@title": {
+    "description": "App title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Save buttons",
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "الإسم",
+  "@name": {
+    "description": "Name labels",
+    "type": "text",
+    "placeholders": {}
+  },
+  "addContactScreen_title": "إضافة جهة اتصال",
+  "@addContactScreen_title": {
+    "description": "Title for add contact screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactNextAt": "تاريخ الإتصال القادم",
+  "@contactNextAt": {
+    "description": "Label for Contact next date field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactNextAtDate": "الإتصال القادم على يوم {date}",
+  "@contactNextAtDate": {
+    "description": "Indicator for when to make next contact with person",
+    "type": "text",
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "contactCount": "{howMany,plural, =0{لا توجد أطراف}=1{طرف {howMany}}=2{طرفان}few{{howMany} أطراف}many{{howMany} طرف}other{{howMany} طرف}}",
+  "@contactCount": {
+    "description": "Contact counter",
+    "type": "text",
+    "placeholders": {
+      "howMany": {}
+    }
+  }
+}

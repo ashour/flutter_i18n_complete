@@ -1,0 +1,44 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2018-09-11T17:25:10.251470",
+  "title": "Stay in Touch (i18n Demo)",
+  "@title": {
+    "description": "App title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save buttons",
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name labels",
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactNextAt": "Contact next at",
+  "@contactNextAt": {
+    "description": "Label for Contact next date field",
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactNextAtDate": "Contact next at {date}",
+  "@contactNextAtDate": {
+    "description": "Indicator for when to make next contact with person",
+    "type": "text",
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "contactCount": "{howMany,plural, =0{No contacts}=1{{howMany} contact}=2{{howMany} contacts}few{{howMany} contacts}many{{howMany} contacts}other{{howMany} contacts}}",
+  "@contactCount": {
+    "description": "Contact counter",
+    "type": "text",
+    "placeholders": {
+      "howMany": {}
+    }
+  }
+}
