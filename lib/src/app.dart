@@ -20,6 +20,12 @@ class App extends StatelessWidget {
           GlobalWidgetsLocalizations.delegate,
         ],
         supportedLocales: [
+          // The order of this list matters. By default, if the
+          // device's locale doesn't exactly match a locale in
+          // supportedLocales then the first locale in
+          // supportedLocales with a matching
+          // Locale.languageCode is used. If that fails then the
+          // first locale in supportedLocales is used.
           const Locale('ar'),
           const Locale('en'),
         ],
