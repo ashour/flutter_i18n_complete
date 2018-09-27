@@ -29,7 +29,7 @@ class SitLocalizations {
 
     // Date formatting is loaded on an as-needed basis. Since
     // we need it for our app, we load it here.
-    await initializeDateFormatting();
+    await initializeDateFormatting(canonicalLocaleName);
 
     return SitLocalizations();
   }
