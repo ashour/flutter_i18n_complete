@@ -1,3 +1,7 @@
+**⚠️ This repo is no longer maintained! Please visit https://github.com/PhraseApp-Blog/flutter_i18n_complete for the up-to-date repo.**
+
+---
+
 # flutter_i18n_complete
 
 A Flutter i18n demo for a PhraseApp tutorial.
